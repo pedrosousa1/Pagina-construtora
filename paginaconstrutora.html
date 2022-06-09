@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hmr Construtora</title>
+  </head>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .topo {
+      width: 100%;
+      background-color: rgb(29, 28, 28);
+      color: white;
+      font-size: 25px;
+    }
+    ul {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .topo li {
+      display: inline-block;
+      padding: 15px;
+      position: relative;
+    }
+    .topo li:hover:not(.sub-menu) {
+      background-color: rgb(12, 105, 192);
+    }
+    .sub-menu {
+      background-color: rgb(12, 105, 192);
+    }
+    .sub-menu:hover:not(.sub-menu) {
+      background-color: rgb(0, 158, 221);
+    }
+    ul li ul {
+      display: none;
+      background-color: rgb(12, 105, 192);
+      padding: 0px;
+      left: 0;
+      top: 59px;
+      right: 0px;
+      font-size: 20px;
+    }
+    ul li ul a {
+      color: white;
+      text-decoration: none;
+    }
+    .submenu:hover ul {
+      display: block;
+      position: absolute;
+    }
+    .submenu ul li {
+      display: block;
+    }
+
+    .conteudo {
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+  </style>
+  <body>
+    <div class="topo">
+      <ul>
+        <li>Home</li>
+        <li>Sobre</li>
+        <li>Quem somos</li>
+        <li class="submenu">
+          <a>Contato</a>
+          <ul>
+            <li class="sub-menu"><a href="">Whatsapp</a></li>
+            <li class="sub-menu"><a href="">Facebook</a></li>
+          </ul>
+        </li>
+        <li class="sub-menu">Entrar</li>
+      </ul>
+    </div>
+
+    <div><img src="construtora.jpg" width="100%" height="500px" /></div>
+
+    <div class="conteudo">
+      <h2>Solução em Construção</h2>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          quas ipsum dolores sit accusamus? Architecto accusamus quaerat fuga
+          exercitationem, dolores consequatur sequi, reiciendis adipisci enim
+          pariatur molestiae! Amet, consequuntur temporibus eligendi cupiditate
+          a veritatis dolorum similique! Voluptates accusantium nemo placeat
+          similique commodi amet nulla asperiores dignissimos laborum at dolores
+          velit id, dicta repellendus doloremque cumque beatae molestias sit
+          consectetur blanditiis illo minima eius? Velit vero earum consequatur
+          dolore iusto totam eaque nesciunt debitis maiores, sint voluptatem
+          ratione quia sit inventore modi. Pariatur nemo, error natus qui quos
+          eos repellendus voluptatem quibusdam nulla reprehenderit labore beatae
+          consequuntur corporis nostrum ipsam mollitia. Tempore atque distinctio
+          sequi quo nihil nemo, excepturi pariatur velit praesentium alias vel
+          nisi ex magni ipsam reiciendis rem, optio maiores suscipit! Illum,
+          quisquam. Harum maxime nobis dolorem eaque amet natus odit,
+          perferendis tempora non reprehenderit quis architecto praesentium
+          similique, minus eum necessitatibus fugiat corrupti magni provident
+          magnam! Odit, iure.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
